@@ -54,10 +54,10 @@ nav a:hover { color: #fff; }
 .card { padding: 30px; display: flex; flex-direction: column; justify-content: flex-start; transition: transform 0.3s; }
 .card:hover { transform: translateY(-5px); }
 .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-.card-date { font-size: 0.8rem; color: #34d399; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
-.card-location { font-size: 0.8rem; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 6px; }
+.card-date { font-size: 1rem; color: #34d399; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+.card-location { font-size: 1rem; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 6px; }
 .card h3 { font-size: 1.6rem; margin-bottom: 5px; color: #fff; font-weight: 700; }
-.card h4 { font-size: 0.95rem; color: rgba(255,255,255,0.7); margin-bottom: 15px; font-weight: 400; font-style: italic; }
+.card h4 { font-size: 1.1rem; color: rgba(255,255,255,0.7); margin-bottom: 15px; font-weight: 400; font-style: italic; }
 .card p { color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; }
 
 /* --- SKILLS --- */

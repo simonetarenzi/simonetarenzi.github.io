@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let icon = 'fa-link';
         if (proj.linkText.toLowerCase().includes('github')) icon = 'fa-github';
         if (proj.linkText.toLowerCase().includes('colab')) icon = 'fa-google';
+        if (proj.linkText.toLowerCase().includes('thingiverse')) icon = 'fa-google';
 
         projContainer.innerHTML += `
             <div class="card glass">

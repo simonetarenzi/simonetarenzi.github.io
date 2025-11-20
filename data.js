@@ -3,7 +3,7 @@ const data = {
         name: "Simone Tarenzi",
         title: "Software & Data Engineer",
         location: "Lugano, CH",
-        bio: "M.Sc. in Informatics (Magna Cum Laude) from USI. Passionate about Large Language Models, Robotics, and Data Engineering.",
+        bio: "M.Sc. in Informatics and Co-Founder of the Google Developer Student Club in USI. Passionate about AI, Robotics, and anything to do with computers.",
         email: "simonetarenzi97@gmail.com",
         linkedin: "https://linkedin.com/in/simone-tarenzi",
         github: "https://github.com/Bluxen",
@@ -56,23 +56,23 @@ const data = {
             desc: "Automated depression screening using RAG and LLMs on social media comments. Achieved >87% accuracy.",
             tags: ["Python", "LLMs", "RAG"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen"
+            url: "https://github.com/Bluxen/Master-Thesis"
         },
         {
             title: "Final Robotics Project",
-            type: "Robotics Project",
+            type: "Robotics",
             desc: "Designed a ROS system where a DJI Robomaster locates objects using visual servoing and coordinates with a Thymio robot.",
             tags: ["ROS", "OpenCV", "CoppeliaSim"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen"
+            url: "https://github.com/Bluxen/Robotics-Project"
         },
         {
             title: "GraphCleaner",
             type: "Reproducibility Challenge",
             desc: "Reproduced framework to detect mislabelled nodes in graph datasets. Validated effectiveness on standard benchmarks.",
             tags: ["Python", "ML", "Graphs"],
-            linkText: "Google Colab",
-            url: "https://colab.research.google.com/"
+            linkText: "Colab",
+            url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN"
         },
         {
             title: "PillsKeeper",
@@ -80,15 +80,23 @@ const data = {
             desc: "Android app for medication inventory with cloud sync, automatic reminders, and Google Maps integration.",
             tags: ["Android", "Kotlin", "SQLite"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen"
+            url: "https://github.com/MarvinTM62/PillsKeeper"
+        },
+        {
+            title: "3D Modeling Projects",
+            type: "3D Modeling",
+            desc: "Various projects using 3D modeling CAD software and tools.",
+            tags: ["3D Modeling", "Fusion 360", "PrusaSlicer"],
+            linkText: "Thingiverse",
+            url: "https://www.thingiverse.com/Bluxen/designs"
         }
     ],
     skills: {
         "Programming": ["Python", "Java", "C++", "SQL", "NoSQL", "HTML", "CSS", "Javascript", "Kotlin", "Matlab", "LaTeX"],
         "Libraries": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "OpenCV", "ROS"],
         "Databases": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Chroma", "FAISS"],
-        "Tools": ["Microsoft 365", "Docker", "Git", "Tableau", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom"],
+        "Tools": ["Git", "Docker", "Tableau", "Microsoft 365", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
         "Languages": ["Italian (Native)", "English (CAE C1 - 200/210)", "German (Beginner)"],
-        "Interests": ["3D Modeling", "3D Scanning", "Photography", "Model Kit Building", "Guitar"]
+        "Interests": ["Guitar", "Traveling", "Photography", "Video Editing", "3D Modeling", "3D Scanning", "Model Kit Building"]
     }
 };
