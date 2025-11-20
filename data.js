@@ -3,7 +3,7 @@ const data = {
         name: "Simone Tarenzi",
         title: "Software & Data Engineer",
         location: "Lugano, CH",
-        bio: "M.Sc. in Informatics and Co-Founder of the Google Developer Student Club in USI. Passionate about AI, Robotics, and anything to do with computers.",
+        bio: "M.Sc. in Informatics and Co-Founder of the Google Developer Student Club at USI. Passionate about AI, Robotics, and anything to do with computers.",
         email: "simonetarenzi97@gmail.com",
         linkedin: "https://linkedin.com/in/simone-tarenzi",
         github: "https://github.com/Bluxen",

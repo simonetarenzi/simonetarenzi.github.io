@@ -106,3 +106,10 @@ footer a { color: #fff; margin: 0 10px; text-decoration: none; }
     background: rgba(255,255,255,0.25);
     transform: translateY(-1px);
 }
+
+/* --- RESPONSIVE TYPOGRAPHY (Smartphone Specific) --- */
+@media (max-width: 600px) {
+    /* Adjust general text size */
+    .card-date { font-size: 0.1rem; color: #34d399; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+    .card-location { font-size: 0.1rem; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 6px; }
+}
