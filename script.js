@@ -105,13 +105,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // 7. PROFILE PHOTO TILT EFFECT
     const maxTilt = 5; 
 
-    profilePhoto.addEventListener('mousemove', (e) => {
+    profilePhoto.addEventListener('mousemove', (m) => {
         const rect = profilePhoto.getBoundingClientRect();
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;
         
-        const mouseX = e.clientX - rect.left - centerX;
-        const mouseY = e.clientY - rect.top - centerY;
+        const mouseX = m.clientX - rect.left - centerX;
+        const mouseY = m.clientY - rect.top - centerY;
         
         const percentX = (mouseX / centerX);
         const percentY = (mouseY / centerY);
