@@ -107,9 +107,22 @@ footer a { color: #fff; margin: 0 10px; text-decoration: none; }
     transform: translateY(-1px);
 }
 
-/* --- RESPONSIVE TYPOGRAPHY (Smartphone Specific) --- */
+/* --- RESPONSIVE --- */
+@media (max-width: 850px) {
+    .hero { flex-direction: column-reverse; text-align: center; }
+    .hero-text { align-items: center; }
+    .btn-group { justify-content: center; }
+    .profile-photo { width: 200px; height: 200px; margin-bottom: 20px; }
+    header { flex-direction: column; gap: 15px; }
+}
+
+/* --- MOBILE SPECIFIC TYPOGRAPHY --- */
 @media (max-width: 600px) {
-    /* Adjust general text size */
-    .card-date { font-size: 0.1rem; color: #34d399; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
-    .card-location { font-size: 0.1rem; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 6px; }
+    /* Adjust specific card header elements */
+    .card-date { 
+        font-size: 0.6rem; /* Reduced size for smartphones */
+    }
+    .card-location { 
+        font-size: 0.6rem; /* Reduced size for smartphones */
+    }
 }
