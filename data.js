@@ -75,8 +75,16 @@ const data = {
             url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN"
         },
         {
+            title: "Decision DB",
+            type: "Bachelor's Thesis",
+            desc: "Java application for the creation and automatic representation of three-valued logic formula through graphs.",
+            tags: ["Java", "Logic", "Graphs"],
+            linkText: "GitHub",
+            url: "https://github.com/Bluxen/Decision_DB"
+        },
+        {
             title: "PillsKeeper",
-            type: "Android Development",
+            type: "App Development",
             desc: "Android app for medication inventory with cloud sync, automatic reminders, and Google Maps integration.",
             tags: ["Android", "Kotlin", "SQLite"],
             linkText: "GitHub",
