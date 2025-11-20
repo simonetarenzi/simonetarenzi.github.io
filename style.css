@@ -17,7 +17,7 @@ body { background-color: #050505; color: #fff; min-height: 100vh; overflow-x: hi
 
 /* --- LAYOUT --- */
 .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-.section-title { font-size: 2rem; font-weight: 700; margin-bottom: 30px; margin-top: 80px; display: inline-block; background: linear-gradient(to right, #fff, #99f6e4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.section-title { font-size: 2rem; font-weight: 700; margin-bottom: 30px; margin-top: 80px; display: inline-block; background: linear-gradient(to right, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 /* --- HEADER --- */
 header { display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; margin-bottom: 60px; margin-top: 20px; z-index: 10; }
@@ -28,7 +28,7 @@ nav a:hover { color: #fff; }
 /* --- HERO --- */
 .hero { display: flex; align-items: center; justify-content: space-between; gap: 40px; padding: 40px 0; margin-bottom: 40px; }
 .hero-text { flex: 1.5; }
-.hero-text h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 15px; background: linear-gradient(to right, #e0f2fe, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; }
+.hero-text h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 15px; background: linear-gradient(to right, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; }
 .hero-text h2 { font-size: 1.4rem; font-weight: 400; color: #a7f3d0; margin-bottom: 20px; }
 .hero-text p { font-size: 1.1rem; max-width: 500px; margin-bottom: 30px; color: rgba(255, 255, 255, 0.75); }
 .hero-img { flex: 1; display: flex; justify-content: center; align-items: center; }
@@ -79,8 +79,8 @@ footer a { color: #fff; margin: 0 10px; text-decoration: none; }
     .btn-group { justify-content: center; }
     .profile-photo { width: 200px; height: 200px; margin-bottom: 20px; }
     header { flex-direction: column; gap: 15px; }
-    .card-date { font-size: 0.1rem; }
-    .card-location { font-size: 0.1rem; }
+    .card-date { font-size: 0.5rem; }
+    .card-location { font-size: 0.5rem; }
 
 }
 
