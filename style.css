@@ -108,21 +108,10 @@ footer a { color: #fff; margin: 0 10px; text-decoration: none; }
 }
 
 /* --- RESPONSIVE --- */
-@media (max-width: 850px) {
-    .hero { flex-direction: column-reverse; text-align: center; }
-    .hero-text { align-items: center; }
-    .btn-group { justify-content: center; }
-    .profile-photo { width: 200px; height: 200px; margin-bottom: 20px; }
-    header { flex-direction: column; gap: 15px; }
-}
-
-/* --- MOBILE SPECIFIC TYPOGRAPHY --- */
-@media (max-width: 600px) {
-    /* Adjust specific card header elements */
-    .card-date { 
-        font-size: 0.6rem; /* Reduced size for smartphones */
-    }
-    .card-location { 
-        font-size: 0.6rem; /* Reduced size for smartphones */
-    }
+@media (max-width: 1000px) {
+    /* ... existing styles for hero, header, etc. ... */
+    
+    /* Added Card Typography Changes for smartphone/tablet viewports */
+    .card-date { font-size: 0.6rem; }
+    .card-location { font-size: 0.6rem; }
 }
