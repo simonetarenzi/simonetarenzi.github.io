@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // 1. POPULATE PROFILE
+    const profilePhoto = document.getElementById('profile-photo');
+    
     document.getElementById('profile-name').textContent = data.profile.name;
     document.getElementById('profile-title').textContent = data.profile.title;
     document.getElementById('profile-bio').textContent = data.profile.bio;
-    document.getElementById('profile-photo').src = data.profile.photo;
+    profilePhoto.src = data.profile.photo;
     
-    // Buttons (CHANGED: LinkedIn is now before GitHub)
     const btnContainer = document.getElementById('hero-btns');
     btnContainer.innerHTML = `
         <a href="mailto:${data.profile.email}" class="btn btn-primary"><i class="fas fa-envelope"></i> Email</a>
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="${data.profile.github}" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
     `;
     
-    // 2. POPULATE EXPERIENCE (With Map Links)
+    // 2. POPULATE EXPERIENCE
     const expContainer = document.getElementById('experience-grid');
     data.experience.forEach(job => {
         expContainer.innerHTML += `
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     });
 
-    // 3. POPULATE EDUCATION (With Map Links)
+    // 3. POPULATE EDUCATION
     const eduContainer = document.getElementById('education-grid');
     data.education.forEach(edu => {
         eduContainer.innerHTML += `
@@ -51,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     });
 
-    // 4. POPULATE PROJECTS (With Clickable Links)
+    // 4. POPULATE PROJECTS
     const projContainer = document.getElementById('projects-grid');
     data.projects.forEach(proj => {
         const tagsHtml = proj.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
@@ -99,5 +100,29 @@ document.addEventListener("DOMContentLoaded", () => {
             element.style.setProperty('--x', `${x}px`);
             element.style.setProperty('--y', `${y}px`);
         });
+    });
+
+    // 7. PROFILE PHOTO TILT EFFECT
+    const maxTilt = 5; 
+
+    profilePhoto.addEventListener('mousemove', (e) => {
+        const rect = profilePhoto.getBoundingClientRect();
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        
+        const mouseX = e.clientX - rect.left - centerX;
+        const mouseY = e.clientY - rect.top - centerY;
+        
+        const percentX = (mouseX / centerX);
+        const percentY = (mouseY / centerY);
+        
+        const tiltY = maxTilt * percentX;
+        const tiltX = -maxTilt * percentY;
+
+        profilePhoto.style.transform = `scale(1.05) perspective(1000px) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
+    });
+
+    profilePhoto.addEventListener('mouseleave', () => {
+        profilePhoto.style.transform = 'scale(1) perspective(1000px) rotateX(0deg) rotateY(0deg)';
     });
 });

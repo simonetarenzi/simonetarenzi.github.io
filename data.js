@@ -75,9 +75,9 @@ const data = {
             url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN"
         },
         {
-            title: "Decision DB",
+            title: "Decision Diagram Builder",
             type: "Bachelor's Thesis",
-            desc: "Java application for the creation and automatic representation of three-valued logic formula through graphs.",
+            desc: "Java application for the creation and automatic representation of three-valued logic formulas through graphs.",
             tags: ["Java", "Logic", "Graphs"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Decision_DB"
