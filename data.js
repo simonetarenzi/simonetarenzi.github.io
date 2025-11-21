@@ -17,7 +17,7 @@ const data = {
             location: "Varese, IT",
             mapUrl: "https://www.google.com/maps/place/Varese,+Italy",
             desc: "Managed a database of dental prosthetic jobs to ensure their correct and timely progression. <br> Performed 3D scanning of dental impressions and models for digital processing. <br> Created 3D prototypes of dental prosthetics.",
-            details: "Used PostegreSQL for database management of jobs and clients, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
+            details: "After Covid a lot of professions turned towards digitalizing a lot of their procedures, one of which was the dental industry and how they handle orders and prosthesis creation. During those two years I helped my dad in managing jobs and clients, as well as using 3D scanners and CAD programs for dental models. <br> In particular I used PostegreSQL for database management, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
         }
     ],
     organizations: [
@@ -28,13 +28,13 @@ const data = {
             location: "Lugano, CH",
             mapUrl: "https://www.google.com/maps/place/Lugano,+Switzerland",
             desc: "Created and expanded the community to 50+ members. <br> Helped manage workshops and guest speaker events. <br> Hosted and taught an introductory workshop on 3D printing techniques.",
-            details: "TODO"
+            details: "This was a nice opportunity to improve my leadership and organizational skills, and also share my passion for 3D printing with others while strengthening my public speaking abilities."
         }
     ],
     education: [
         {
             degree: "M.Sc. in Informatics",
-            specialization: " (AI Specialization)",
+            specialization: "(AI Specialization)",
             school: "Università della Svizzera Italiana (USI)",
             date: "Aug 2022 - Jun 2025",
             location: "Lugano, CH",
@@ -52,7 +52,7 @@ const data = {
             mapUrl: "https://www.google.com/maps/place/Universit%C3%A0+degli+Studi+dell'Insubria+-+Campus+Bizzozero/@45.8007344,8.8416162,16.75z/data=!4m10!1m2!2m1!1sinsubria!3m6!1s0x478680c821d56f7b:0xb1074c5d88e629a9!8m2!3d45.7981484!4d8.8482614!15sCghpbnN1YnJpYSIDiAEBkgEKdW5pdmVyc2l0eaoBSgoNL2cvMTFieW10MF9zbAoJL20vMGN3aGJoEAEyHhABIhqbOGdnBvKEG9B_MIiILeWgdSzSJUZRbBySoTIMEAIiCGluc3Vicmlh4AEA!16s%2Fg%2F11b6gk_tfv?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
             grade: "99/110",
             courses: "Algorithms & Data Structures, Computer Architecture, Procedural and Object-Oriented Programming, Concurrent and Distributed Programming, Databases, Software Design, Automatons & Languages, Image Processing, Calculus",
-            details: "TODO"
+            details: "I wouldn't say I found my passion for programming here, but it certainly strengthened it. The courses were all very interesting and I had the chance to learn a lot of different programming languages and paradigms, as well as most theoretical computer science topics. <br> I only regret it being interrupted by Covid-19, which made the last courses and exams way more difficult than they should have been."
         }
     ],
     projects: [
@@ -90,7 +90,7 @@ const data = {
             tags: ["Java", "Logic", "Graphs"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Decision_DB",
-            details: "TODO"
+            details: "My Bachelor's thesis project involved creating a Java application that could take three-valued logic formulas as input and represent them as decision diagrams. The challenge was to not only create a graph of the formula itself, but also a way to simplify it so that it was legible. In the end I decided to show the various steps of simplification as well, so it would be easier to understand how the final graph was obtained."
         },
         {
             title: "PillsKeeper",
@@ -99,7 +99,7 @@ const data = {
             tags: ["Android", "Kotlin", "SQLite", "Google Maps"],
             linkText: "GitHub",
             url: "https://github.com/MarvinTM62/PillsKeeper",
-            details: "TODO"
+            details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. I was mainly responsible for the database design and implementation in SQLite, as well as the reminders system using Android's AlarmManager."
         },
         {
             title: "3D Modeling Projects",
@@ -108,7 +108,7 @@ const data = {
             tags: ["3D Modeling", "Fusion 360", "PrusaSlicer"],
             linkText: "Thingiverse",
             url: "https://www.thingiverse.com/Bluxen/designs",
-            details: "TODO"
+            details: "My profile page on Thingiverse where I upload some of my 3D modeling projects and designs for others to download and use. I am particularly proud of my rearview mirror adapter, which I designed to fit my dad's Mercedes and encloses a dashcam, and that I also sanded and painted. But the board game is cool too!"
         }
     ],
     skills: {
