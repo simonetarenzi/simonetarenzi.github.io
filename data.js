@@ -11,15 +11,6 @@ const data = {
     },
     experience: [
         {
-            role: "Vice-President",
-            company: "Google Developer Student Club (USI)",
-            date: "Aug 2023 - Jun 2024",
-            location: "Lugano, CH",
-            mapUrl: "https://www.google.com/maps/place/Lugano,+Switzerland",
-            desc: "Created and expanded the community to 50+ members. <br> Helped manage workshops and guest speaker events. <br> Hosted and taught an introductory workshop on 3D printing techniques.",
-            details: "TODO"
-        },
-        {
             role: "Data Engineer & 3D Modeler",
             company: "Independent Dental Technician Assistance",
             date: "Sep 2020 - Sep 2022",
@@ -27,6 +18,17 @@ const data = {
             mapUrl: "https://www.google.com/maps/place/Varese,+Italy",
             desc: "Managed a database of dental prosthetic jobs to ensure their correct and timely progression. <br> Performed 3D scanning of dental impressions and models for digital processing. <br> Created 3D prototypes of dental prosthetics.",
             details: "Used PostegreSQL for database management of jobs and clients, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
+        }
+    ],
+    organizations: [
+        {
+            role: "Vice-President",
+            company: "Google Developer Student Club (USI)",
+            date: "Aug 2023 - Jun 2024",
+            location: "Lugano, CH",
+            mapUrl: "https://www.google.com/maps/place/Lugano,+Switzerland",
+            desc: "Created and expanded the community to 50+ members. <br> Helped manage workshops and guest speaker events. <br> Hosted and taught an introductory workshop on 3D printing techniques.",
+            details: "TODO"
         }
     ],
     education: [

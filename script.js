@@ -62,7 +62,14 @@ document.addEventListener("DOMContentLoaded", () => {
         expContainer.innerHTML += createFlipCard(job.role, job.company, job.date, locHtml, job.desc, job.details);
     });
 
-    // 3. POPULATE EDUCATION
+    // 3. POPULATE ORGANIZATIONS
+    const orgContainer = document.getElementById('organizations-grid');
+    data.organizations.forEach(org => {
+        const locHtml = `<a href="${org.mapUrl}" target="_blank" class="card-location hover-link" onclick="event.stopPropagation()"><i class="fas fa-map-marker-alt"></i> ${org.location}</a>`;
+        orgContainer.innerHTML += createFlipCard(org.role, org.company, org.date, locHtml, org.desc, org.details);
+    });
+
+    // 4. POPULATE EDUCATION
     const eduContainer = document.getElementById('education-grid');
     data.education.forEach(edu => {
         const locHtml = `<a href="${edu.mapUrl}" target="_blank" class="card-location hover-link" onclick="event.stopPropagation()"><i class="fas fa-map-marker-alt"></i> ${edu.location}</a>`;
@@ -70,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
         eduContainer.innerHTML += createFlipCard(edu.degree + edu.specialization, edu.school, edu.date, locHtml, desc, edu.details);
     });
 
-    // 4. POPULATE PROJECTS
+    // 5. POPULATE PROJECTS
     const projContainer = document.getElementById('projects-grid');
     data.projects.forEach(proj => {
         
@@ -102,14 +109,14 @@ document.addEventListener("DOMContentLoaded", () => {
         );
     });
 
-    // 5. POPULATE SKILLS
+    // 6. POPULATE SKILLS
     const skillsContainer = document.getElementById('skills-grid');
     for (const [category, skillsList] of Object.entries(data.skills)) {
         const tagsHtml = skillsList.map(skill => `<span class="tag">${skill}</span>`).join('');
         skillsContainer.innerHTML += `<div class="skill-category"><h4>${category}</h4><div class="skill-tags">${tagsHtml}</div></div>`;
     }
 
-    // 6. GENERAL INTERACTIVITY
+    // 7. GENERAL INTERACTIVITY
     document.querySelectorAll('.card-wrapper').forEach(card => {
         card.addEventListener('click', () => { card.classList.toggle('flipped'); });
     });
@@ -122,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // 7. PROFILE INTERACTIVITY
+    // 8. PROFILE INTERACTIVITY
     const profileCard = document.getElementById('profile-card');
     if(profileCard) {
         profileCard.addEventListener('click', () => {
