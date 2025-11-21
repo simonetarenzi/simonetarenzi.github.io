@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('profile-title').textContent = data.profile.title;
     document.getElementById('profile-bio').innerHTML = data.profile.bio;
     
-    // INJECT PROFILE STRUCTURE (Front + Back, No Icon)
     heroImgContainer.innerHTML = `
         <div class="profile-wrapper" id="profile-card">
             <div class="profile-inner">
@@ -22,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     `;
     
-    // Buttons
     const btnContainer = document.getElementById('hero-btns');
     btnContainer.innerHTML = `
         <a href="mailto:${data.profile.email}" class="btn btn-primary"><i class="fas fa-envelope"></i> Email</a>
@@ -30,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="${data.profile.github}" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
     `;
 
-    // --- HELPER FUNCTION TO CREATE FLIP CARDS ---
     const createFlipCard = (title, subtitle, date, headerRight, desc, details, tags = null) => {
         const tagsHtml = tags ? `<div class="skill-tags" style="margin-top:15px">${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>` : '';
         
@@ -76,13 +73,33 @@ document.addEventListener("DOMContentLoaded", () => {
     // 4. POPULATE PROJECTS
     const projContainer = document.getElementById('projects-grid');
     data.projects.forEach(proj => {
-        let icon = 'fa-link';
-        if (proj.linkText.toLowerCase().includes('github')) icon = 'fa-github';
-        if (proj.linkText.toLowerCase().includes('colab')) icon = 'fa-google';
-        if (proj.linkText.toLowerCase().includes('thingiverse')) icon = 'fa-cube';
+        
+        let iconHtml = `<i class="fas fa-link"></i>`; 
 
-        const linkHtml = `<a href="${proj.url}" target="_blank" class="card-location project-link" onclick="event.stopPropagation()"><i class="fab ${icon}"></i> ${proj.linkText}</a>`;
-        projContainer.innerHTML += createFlipCard(proj.title, null, proj.type, linkHtml, proj.desc, proj.details, proj.tags);
+        if (proj.linkText.toLowerCase().includes('github')) {
+            iconHtml = `<i class="fab fa-github"></i>`;
+        } 
+        else if (proj.linkText.toLowerCase().includes('colab')) {
+            iconHtml = `<i class="fab fa-google"></i>`;
+        } 
+        else if (proj.linkText.toLowerCase().includes('thingiverse')) {
+            iconHtml = `<img src="images/thingiverse_icon.png" class="custom-icon" alt="Thingiverse">`;
+        }
+
+        const linkHtml = `
+            <a href="${proj.url}" target="_blank" class="card-location project-link" onclick="event.stopPropagation()">
+                ${iconHtml} ${proj.linkText}
+            </a>`;
+
+        projContainer.innerHTML += createFlipCard(
+            proj.title,
+            null,
+            proj.type,
+            linkHtml,
+            proj.desc,
+            proj.details,
+            proj.tags
+        );
     });
 
     // 5. POPULATE SKILLS
@@ -105,15 +122,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // 7. PROFILE INTERACTIVITY (TILT + FLIP)
+    // 7. PROFILE INTERACTIVITY
     const profileCard = document.getElementById('profile-card');
     if(profileCard) {
-        // FLIP: Click toggles the class
         profileCard.addEventListener('click', () => {
             profileCard.classList.toggle('flipped');
         });
 
-        // TILT: Mousemove calculates rotation
         const maxTilt = 6; 
         
         profileCard.addEventListener('mousemove', (e) => {
@@ -122,16 +137,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const centerY = rect.height / 2;
             const mouseX = e.clientX - rect.left - centerX;
             const mouseY = e.clientY - rect.top - centerY;
-            
-            // Calculate rotation
             const rotateX = -1 * (mouseY / centerY) * maxTilt; 
             const rotateY = (mouseX / centerX) * maxTilt;
-
-            // Apply Transform to the WRAPPER (Parent)
             profileCard.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
         });
 
-        // RESET TILT: Mouseleave
         profileCard.addEventListener('mouseleave', () => {
             profileCard.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
         });

@@ -7,7 +7,7 @@ const data = {
         email: "simonetarenzi97@gmail.com",
         linkedin: "https://linkedin.com/in/simone-tarenzi",
         github: "https://github.com/Bluxen",
-        photo: "professional_photo_cropped.png"
+        photo: "images/profile_picture.png"
     },
     experience: [
         {
@@ -67,7 +67,7 @@ const data = {
             title: "Final Robotics Project",
             type: "Robotics",
             desc: "Robotic system in ROS where a DJI Robomaster EP locates, picks up, and transports ArUco-tagged objects using visual servoing, then autonomously follows a Thymio robot. <br> Integrated OpenCV, CoppeliaSim, and custom control logic for alignment, grasping, and motor coordination.",
-            tags: ["Python", "ROS", "OpenCV", "CoppeliaSim"],
+            tags: ["Python", "ROS", "OpenCV", "ArUco", "CoppeliaSim"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Robotics-Project",
             details: "TODO"
@@ -76,7 +76,7 @@ const data = {
             title: "GraphCleaner",
             type: "Reproducibility Challenge",
             desc: "Reproduction of the GraphCleaner framework to detect and correct mislabelled nodes in graph datasets using ML techniques, validating its effectiveness on standard benchmarks. <br> Evaluated robustness under extreme noise levels and extended experiments beyond the original settings with artificial datasets.",
-            tags: ["Python", "Machine Learning", "Deep Learning", "Graphs"],
+            tags: ["Python", "TensorFlow", "Graphs", "Machine Learning", "Deep Learning"],
             linkText: "Colab",
             url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN",
             details: "TODO"
