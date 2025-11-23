@@ -16,8 +16,8 @@ const data = {
             date: "Sep 2020 - Sep 2022",
             location: "Varese, IT",
             mapUrl: "https://www.google.com/maps/place/Varese,+Italy",
-            desc: "Managed a database of dental prosthetic jobs to ensure their correct and timely progression. <br> Performed 3D scanning of dental impressions and models for digital processing. <br> Created 3D prototypes of dental prosthetics.",
-            details: "After Covid a lot of professions turned towards digitalizing a lot of their procedures, one of which was the dental industry and how they handle orders and prosthesis creation. During those two years I helped my dad in managing jobs and clients, as well as using 3D scanners and CAD programs for dental models. <br> In particular I used PostegreSQL for database management, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
+            desc: "Managed a database of dental prosthetic jobs, ensuring accurate tracking and workflow progression. <br> Performed 3D scanning of dental impressions and models for digital processing. <br> Created 3D prototypes of dental prosthetics.",
+            details: "After Covid a lot of professions turned towards digitalizing a lot of their procedures, one of which was the dental industry and how they handle orders and prosthesis creation. During those two years I helped my dad in managing jobs and clients, as well as using 3D scanners and CAD programs for creating prototypes of dental models that would later be processed further. <br> In particular I used PostegreSQL for database management, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
         }
     ],
     organizations: [
@@ -28,7 +28,7 @@ const data = {
             location: "Lugano, CH",
             mapUrl: "https://www.google.com/maps/place/Lugano,+Switzerland",
             desc: "Created and expanded the community to 50+ members. <br> Helped manage workshops and guest speaker events. <br> Hosted and taught an introductory workshop on 3D printing techniques.",
-            details: "This was a nice opportunity to improve my leadership and organizational skills, and also share my passion for 3D printing with others while strengthening my public speaking abilities."
+            details: "Four other fellow colleagues and I created the first ever Google Developer Student Club in USI, both as a challenge to ourselves, and to provide a community for students interested in modern technologies and software development in general. <br> This was an incredible opportunity to improve my leadership and organizational skills, and also share my passion for 3D printing with others while strengthening my public speaking abilities."
         }
     ],
     education: [
@@ -41,7 +41,7 @@ const data = {
             mapUrl: "https://www.google.com/maps/place/USI+Universit%C3%A0+della+Svizzera+italiana/@46.010733,8.9555832,17z/data=!3m1!4b1!4m6!3m5!1s0x47842d98369b06c3:0x618f9f987d4b4b09!8m2!3d46.010733!4d8.9581581!16zL20vMDcxOHRs?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
             grade: "Magna Cum Laude",
             courses: "Artificial Intelligence, Machine Learning, Data Analytics, Graph Deep Learning, Robotics, Algorithms & Complexity, High-Performance Computing, Quantum Computing, Software Design & Modeling",
-            details: "TODO"
+            details: "The place where not only I deepened my knowledge of computer science and artificial intelligence, but also where I learned to truly understand and appreciate the importance of teamwork and collaboration, allowing me to approach problems in a more structured and efficient way. <br> The courses all being taught in English also immensely helped me improve my technical vocabulary, and made me more confident and easy-going in speaking with other people."
         },
         {
             degree: "Bachelor in Informatics",
@@ -59,20 +59,20 @@ const data = {
         {
             title: "LLMs as a Depression Diagnostic Tool",
             type: "Master's Thesis",
-            desc: "Automatic depression screening tool using social media comments by employing RAG and LLMs with an accuracy of more than 87%. <br> Outperformed ML and NLP techniques on the same dataset of CLEF's eRisk competition.",
+            desc: "Automatic depression screening tool using social media comments by employing RAG and LLMs, with an accuracy of more than 87%. <br> Outperformed ML and NLP techniques on the same dataset of CLEF's eRisk competition.",
             tags: ["Python", "Large Language Models", "Retrieval Augmented Generation", "Natural Language Processing", "Machine Learning"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Master-Thesis",
-            details: "TODO"
+            details: "My Master's thesis and the work I'm probably the most proud of. The idea was to create an automatic depression screening tool using social media comments, specifically from Reddit, by leveraging the power of Large Language Models and Retrieval Augmented Generation techniques. <br> After proving the effectiveness of this methodology, I created a full simulation of two agents, a doctor and a patient, in which they would engage in a conversation to assess the patient's mental state."
         },
         {
-            title: "Final Robotics Project",
+            title: "Robotics Project",
             type: "Robotics",
             desc: "Robotic system in ROS where a DJI Robomaster EP locates, picks up, and transports ArUco-tagged objects using visual servoing, then autonomously follows a Thymio robot. <br> Integrated OpenCV, CoppeliaSim, and custom control logic for alignment, grasping, and motor coordination.",
             tags: ["Python", "ROS", "OpenCV", "ArUco", "CoppeliaSim"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Robotics-Project",
-            details: "TODO"
+            details: "The final project for the Robotics course at USI, where we had to invent and implement any kind of robotic system using ROS and simulated using CoppeliaSim. Our team decided to create a system where a DJI Robomaster EP would have to find, pick up, and transport objects marked with ArUco tags using visual servoing techniques, and then follow another robot (a Thymio) autonomously. <br> I was mainly responsible for the computer vision part using OpenCV and ArUco libraries, as well as the control logic for alignment and grasping."
         },
         {
             title: "GraphCleaner",
@@ -81,7 +81,7 @@ const data = {
             tags: ["Python", "TensorFlow", "Graphs", "Machine Learning", "Deep Learning"],
             linkText: "Colab",
             url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN",
-            details: "TODO"
+            details: "The final project of the Deep Learning Lab course at USI, where the challenge was to reproduce the results of a scientific paper. In this case, the paper presented GraphCleaner, a framework to identify and fix mislabelled nodes in graph datasets using machine learning techniques. <br> This was the perfect opportunity to test my knowledge of neural networks and deep learning in general."
         },
         {
             title: "Decision Diagram Builder",
@@ -90,7 +90,7 @@ const data = {
             tags: ["Java", "Logic", "Graphs"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Decision_DB",
-            details: "My Bachelor's thesis project involved creating a Java application that could take three-valued logic formulas as input and represent them as decision diagrams. The challenge was to not only create a graph of the formula itself, but also a way to simplify it so that it was legible. In the end I decided to show the various steps of simplification as well, so it would be easier to understand how the final graph was obtained."
+            details: "My Bachelor's thesis involved creating a Java application that could take three-valued logic formulas as input and represent them as decision diagrams. The most difficult part was to not only create a graph representing the formula itself, but also a way to simplify it so that it was legible. In the end I decided to show the various steps of simplification as well, so it would be easier to understand how the final graph was obtained."
         },
         {
             title: "PillsKeeper",
@@ -99,16 +99,16 @@ const data = {
             tags: ["Android", "Kotlin", "SQLite", "Google Maps"],
             linkText: "GitHub",
             url: "https://github.com/MarvinTM62/PillsKeeper",
-            details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. I was mainly responsible for the database design and implementation in SQLite, as well as the reminders system using Android's AlarmManager."
+            details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. <br> I was mainly responsible for the database design and implementation in SQLite, as well as the reminders system using Android's AlarmManager."
         },
         {
             title: "3D Modeling Projects",
             type: "3D Modeling",
-            desc: "Various 3D modeling projects like an adapter for a rearview mirror, a bluetooth speaker, a board game, and more. <br> Designed with Fusion 360 and printed using PrusaSlicer.",
-            tags: ["3D Modeling", "Fusion 360", "PrusaSlicer"],
+            desc: "Various 3D modeling projects like an adapter for a rearview mirror, a bluetooth speaker, a board game, and more. <br> Designed with Fusion 360 and produced using PrusaSlicer and FDM printing technology.",
+            tags: ["3D Modeling", "Fusion 360", "PrusaSlicer", "Fused Deposition Modeling"],
             linkText: "Thingiverse",
             url: "https://www.thingiverse.com/Bluxen/designs",
-            details: "My profile page on Thingiverse where I upload some of my 3D modeling projects and designs for others to download and use. I am particularly proud of my rearview mirror adapter, which I designed to fit my dad's Mercedes and encloses a dashcam, and that I also sanded and painted. But the board game is cool too!"
+            details: "My profile page on Thingiverse where I upload some of my 3D modeling projects and designs for others to download and use. I am particularly proud of my rearview mirror adapter, which I designed to fit my dad's Mercedes and encloses a dashcam, and that I also sanded and painted. <br> But the board game is cool too!"
         }
     ],
     skills: {
