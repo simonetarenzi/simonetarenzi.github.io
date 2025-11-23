@@ -43,13 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${subtitle ? `<h4>${subtitle}</h4>` : ''}
                     <p>${desc}</p>
                     ${tagsHtml}
-                    <i class="fas fa-sync-alt flip-icon"></i>
+                    <i class="fa-solid fa-arrow-right bottom-right-icon"></i>
                 </div>
 
                 <div class="card-face card-back">
                     <h3 style="font-size:1.2rem; margin-bottom:15px;">Details</h3>
                     <div class="details-text">${details}</div>
-                    <i class="fas fa-undo flip-icon"></i>
+                    <i class="fa-solid fa-arrow-left bottom-left-icon"></i>
                 </div>
             </div>
         </div>`;
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     data.education.forEach(edu => {
         const locHtml = `<a href="${edu.mapUrl}" target="_blank" class="card-location hover-link" onclick="event.stopPropagation()"><i class="fas fa-map-marker-alt"></i> ${edu.location}</a>`;
         const desc = `<strong>Grade:</strong> ${edu.grade}<br><strong>Relevant Courses:</strong> ${edu.courses}`;
-        eduContainer.innerHTML += createFlipCard(edu.degree + edu.specialization, edu.school, edu.date, locHtml, desc, edu.details);
+        eduContainer.innerHTML += createFlipCard(edu.degree + " " + edu.specialization, edu.school, edu.date, locHtml, desc, edu.details);
     });
 
     // 5. POPULATE PROJECTS
