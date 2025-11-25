@@ -4,8 +4,23 @@ document.addEventListener("DOMContentLoaded", () => {
     const heroImgContainer = document.querySelector('.hero-img');
     
     document.getElementById('profile-name').textContent = data.profile.name;
-    document.getElementById('profile-title').textContent = data.profile.title;
     document.getElementById('profile-bio').innerHTML = data.profile.bio;
+    
+    const titleElement = document.getElementById('profile-title');
+    titleElement.classList.add('typewriter');
+    titleElement.textContent = '';
+    
+    const textToType = data.profile.title;
+    let charIndex = 0;
+
+    function typeEffect() {
+        if (charIndex < textToType.length) {
+            titleElement.textContent += textToType.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeEffect, 75);
+        }
+    }
+    typeEffect();
     
     heroImgContainer.innerHTML = `
         <div class="profile-wrapper" id="profile-card">
