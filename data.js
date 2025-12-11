@@ -69,7 +69,7 @@ const data = {
             title: "Robotics Project",
             type: "Robotics",
             desc: "Robotic system in ROS where a DJI Robomaster EP locates, picks up, and transports ArUco-tagged objects using visual servoing, then autonomously follows a Thymio robot. <br> Integrated OpenCV, CoppeliaSim, and custom control logic for alignment, grasping, and motor coordination.",
-            tags: ["Python", "ROS", "OpenCV", "ArUco", "CoppeliaSim"],
+            tags: ["Python", "Robot Operating System", "OpenCV", "ArUco", "CoppeliaSim"],
             linkText: "GitHub",
             url: "https://github.com/Bluxen/Robotics-Project",
             details: "The final project for the Robotics course at USI, where we had to invent and implement any kind of robotic system using ROS and simulated using CoppeliaSim. Our team decided to create a system where a DJI Robomaster EP would have to find, pick up, and transport objects marked with ArUco tags using visual servoing techniques, and then follow another robot (a Thymio) autonomously. <br> I was mainly responsible for the computer vision part using OpenCV and ArUco libraries, as well as the control logic for alignment and grasping."
@@ -105,10 +105,19 @@ const data = {
             title: "3D Modeling Projects",
             type: "3D Modeling",
             desc: "Various 3D modeling projects like an adapter for a rearview mirror, a bluetooth speaker, a board game, and more. <br> Designed with Fusion 360 and produced using PrusaSlicer and FDM printing technology.",
-            tags: ["3D Modeling", "Fusion 360", "PrusaSlicer", "Fused Deposition Modeling"],
+            tags: ["3D Modeling", "Fusion 360", "PrusaSlicer", "FDM Printing"],
             linkText: "Thingiverse",
             url: "https://www.thingiverse.com/Bluxen/designs",
             details: "My profile page on Thingiverse where I upload some of my 3D modeling projects and designs for others to download and use. I am particularly proud of my rearview mirror adapter, which I designed to fit my dad's Mercedes and encloses a dashcam, and that I also sanded and painted. <br> But the board game is cool too!"
+        },
+        {
+            title: "Portfolio Website",
+            type: "Website",
+            desc: "Personal portfolio website to showcase my skills, experience, and projects. <br> Built with HTML, CSS, and JavaScript, featuring a responsive design and interactive elements.",
+            tags: ["HTML", "CSS", "JavaScript"],
+            linkText: "GitHub",
+            url: "https://bluxen.github.io",
+            details: "My own personal website. <br> I wanted to have a very modern looking website where I can put whatever doesn't fit in my curriculum. <br> It follows the so called \"Liquid Glass\" design by Apple, or what I like to call \"Windows Vista 2025\"."
         }
     ],
     skills: {
