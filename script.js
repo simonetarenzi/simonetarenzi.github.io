@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (charIndex < textToType.length) {
             titleElement.textContent += textToType.charAt(charIndex);
             charIndex++;
-            setTimeout(typeEffect, 75);
+            setTimeout(typeEffect, 125);
         }
     }
     typeEffect();
