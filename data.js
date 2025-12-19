@@ -17,7 +17,7 @@ const data = {
             location: "Varese, IT",
             mapUrl: "https://www.google.com/maps/place/Varese,+Italy",
             desc: "Managed a database of dental prosthetic jobs, ensuring accurate tracking and workflow progression. <br> Performed 3D scanning of dental impressions and models for digital processing. <br> Created 3D prototypes of dental prosthetics.",
-            details: "After Covid a lot of professions turned towards digitalizing a lot of their procedures, one of which was the dental industry and how they handle orders and prosthesis creation. During those two years I helped my dad in managing jobs and clients, as well as using 3D scanners and CAD programs for creating prototypes of dental models that would later be processed further. <br> In particular I used PostegreSQL for database management, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
+            details: "After Covid a lot of professions turned towards digitalizing a lot of their procedures, one of which was the dental industry and how they handle orders and prosthesis creation. During those two years I helped my dad in managing jobs and clients, as well as using 3D scanners and CAD programs for creating prototypes of dental models that would later be processed further. <br> In particular I used PostgreSQL for database management, and Dental Wings and 3Shape scanners and CAD software for 3D scanning and modeling."
         }
     ],
     organizations: [
