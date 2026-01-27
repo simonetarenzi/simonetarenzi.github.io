@@ -102,6 +102,15 @@ const data = {
             details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. <br> I was mainly responsible for the database design and implementation in SQLite, as well as the reminders system using Android's AlarmManager."
         },
         {
+            title: "Wi-Finder",
+            type: "App Development",
+            desc: "Android app for locating nearby Wi-Fi networks by approximating their location, and displaying their details, including signal strength and security type.",
+            tags: ["Android", "Java", "Google Maps"],
+            linkText: "GitHub",
+            url: "",
+            details: "The final project for the Mobile & Wearable Computing course in USI, built with another student. <br> I was responsible for the UI and overall navigation of the app, while my partner handled the Wi-Fi scanning and location approximation algorithms."
+        },
+        {
             title: "3D Modeling Projects",
             type: "3D Modeling",
             desc: "Various 3D modeling projects like an adapter for a rearview mirror, a bluetooth speaker, a board game, and more. <br> Designed with Fusion 360 and produced using PrusaSlicer and FDM printing technology.",
