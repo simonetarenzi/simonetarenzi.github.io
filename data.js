@@ -96,16 +96,16 @@ const data = {
             title: "PillsKeeper",
             type: "App Development",
             desc: "Android app for keeping and managing a personal inventory of medications, with online database support for data synchronization, automatic reminders, prescription email templates, and Google Maps integration.",
-            tags: ["Android", "Kotlin", "SQLite", "Google Maps"],
+            tags: ["Android", "Kotlin", "Firebase", "Google Maps"],
             linkText: "GitHub",
             url: "https://github.com/MarvinTM62/PillsKeeper",
-            details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. <br> I was mainly responsible for the database design and implementation in SQLite, as well as the reminders system using Android's AlarmManager."
+            details: "The first 'real' app I developed during my Bachelor's degree, created as a university project with a team of 3 people. <br> I was mainly responsible for the database design and implementation in Firebase, as well as the reminders system using Android's AlarmManager."
         },
         {
             title: "Wi-Finder",
             type: "App Development",
             desc: "Android app for locating nearby Wi-Fi networks by approximating their location, and displaying their details, including signal strength and security type.",
-            tags: ["Android", "Java", "Google Maps"],
+            tags: ["Android", "Java", "SQLite", "Google Maps"],
             linkText: "GitHub",
             url: "",
             details: "The final project for the Mobile & Wearable Computing course in USI, built with another student. <br> I was responsible for the UI and overall navigation of the app, while my partner handled the Wi-Fi scanning and location approximation algorithms."
