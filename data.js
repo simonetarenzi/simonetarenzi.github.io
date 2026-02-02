@@ -78,7 +78,7 @@ const data = {
             title: "GraphCleaner",
             type: "Reproducibility Challenge",
             desc: "Reproduction of the GraphCleaner framework to detect and correct mislabelled nodes in graph datasets using ML techniques, validating its effectiveness on standard benchmarks. <br> Evaluated robustness under extreme noise levels and extended experiments beyond the original settings with artificial datasets.",
-            tags: ["Python", "TensorFlow", "Graphs", "Machine Learning", "Deep Learning"],
+            tags: ["Python", "PyTorch", "TensorFlow", "Graphs", "Machine Learning", "Deep Learning"],
             linkText: "Colab",
             url: "https://colab.research.google.com/drive/16TZ1vq1fAzQ09X9qea6uZh_KCWHvTtGb##scrollTo=C0bc2Xh_yviN",
             details: "The final project of the Deep Learning Lab course at USI, where the challenge was to reproduce the results of a scientific paper. In this case, the paper presented GraphCleaner, a framework to identify and fix mislabelled nodes in graph datasets using machine learning techniques. <br> This was the perfect opportunity to test my knowledge of neural networks and deep learning in general."
@@ -132,7 +132,7 @@ const data = {
     skills: {
         "Programming": ["Python", "Java", "C++", "SQL", "NoSQL", "HTML", "CSS", "Javascript", "Kotlin", "Matlab", "LaTeX"],
         "Libraries": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "OpenCV", "ROS"],
-        "Databases": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Chroma", "FAISS"],
+        "Databases": ["MySQL", "PostgreSQL", "SQLite", "Firebase", "MongoDB", "Chroma", "FAISS"],
         "Tools": ["Git", "Docker", "Tableau", "Microsoft 365", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
         "Languages": ["Italian (Native)", "English (CAE C1 - 200/210)", "German (Beginner)"],
         "Interests": ["Guitar", "Traveling", "Photography", "Video Editing", "3D Modeling", "3D Scanning", "Model Kit Building"]
