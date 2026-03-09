@@ -2,14 +2,23 @@ const data = {
     profile: {
         name: "Simone Tarenzi",
         title: "Software & Data Engineer",
-        location: "Lugano, CH",
-        bio: "M.Sc. in Informatics and Co-Founder of the Google Developer Student Club at USI. <br> Passionate about AI, Robotics, and anything to do with computers.",
+        location: "Varese, IT",
+        bio: "Junior Software Engineer at Intesa Sanpaolo. <br> M.Sc. in Informatics with AI Specialization and Co-Founder of the Google Developer Student Club at USI. <br> Passionate about AI, Robotics, and anything to do with computers.",
         email: "simonetarenzi97@gmail.com",
         linkedin: "https://linkedin.com/in/simone-tarenzi",
         github: "https://github.com/Bluxen",
         photo: "images/profile_picture.png"
     },
     experience: [
+        {
+            role: "Junior Software Engineer",
+            company: "Intesa Sanpaolo",
+            date: "Mar 2026 - Current",
+            location: "Milan, IT",
+            mapUrl: "https://www.google.com/maps/place/Intesa+Sanpaolo+Vita/@45.4854873,9.1942645,16z/data=!3m1!5s0x4786c6ce0e50fb7f:0x64c17ba744fe5fb1!4m15!1m8!3m7!1s0x4786c6ce0e50fb7f:0xba36fae02fe50c56!2sVia+Melchiorre+Gioia,+22,+20124+Milano+MI!3b1!8m2!3d45.4854873!4d9.1968394!16s%2Fg%2F11cpp1n4_1!3m5!1s0x4786c128426e41f9:0x7c605f2eacedc5c6!8m2!3d45.4854874!4d9.1968394!16s%2Fg%2F1tvw3thk?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D",
+            desc: "Description loading...",
+            details: "Details loading..."
+        },
         {
             role: "Data Engineer & 3D Modeler",
             company: "Independent Dental Technician Assistance",
@@ -26,7 +35,7 @@ const data = {
             company: "Google Developer Student Club (USI)",
             date: "Aug 2023 - Jun 2024",
             location: "Lugano, CH",
-            mapUrl: "https://www.google.com/maps/place/Lugano,+Switzerland",
+            mapUrl: "https://www.google.com/maps/place/USI+Universit%C3%A0+della+Svizzera+italiana/@46.010733,8.9555832,17z/data=!3m1!4b1!4m6!3m5!1s0x47842d98369b06c3:0x618f9f987d4b4b09!8m2!3d46.010733!4d8.9581581!16zL20vMDcxOHRs?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
             desc: "Created and expanded the community to 50+ members. <br> Helped manage workshops and guest speaker events. <br> Hosted and taught an introductory workshop on 3D printing techniques.",
             details: "Four other fellow colleagues and I created the first ever Google Developer Student Club in USI, both as a challenge to ourselves, and to provide a community for students interested in modern technologies and software development in general. <br> This was an incredible opportunity to improve my leadership and organizational skills, and also share my passion for 3D printing with others while strengthening my public speaking abilities."
         }
