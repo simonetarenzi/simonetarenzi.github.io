@@ -140,9 +140,10 @@ const data = {
     ],
     skills: {
         "Programming": ["Python", "Java", "C++", "SQL", "NoSQL", "HTML", "CSS", "Javascript", "Kotlin", "Matlab", "LaTeX"],
-        "Libraries": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "OpenCV", "ROS"],
+        "Libraries": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "LangChain", "OpenCV", "ROS"],
         "Databases": ["MySQL", "PostgreSQL", "SQLite", "Firebase", "MongoDB", "Chroma", "FAISS"],
-        "Tools": ["Git", "Docker", "Tableau", "Microsoft 365", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
+        "DevOps": ["Git", "Docker", "Kubernetes", "Spring Boot", "Quarkus", "Kafka", "Jira", "Confluence", "JUnit"],
+        "Tools": ["Tableau", "Microsoft 365", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
         "Languages": ["Italian (Native)", "English (CAE C1 - 200/210)", "German (Beginner)"],
         "Interests": ["Guitar", "Traveling", "Photography", "Video Editing", "3D Modeling", "3D Scanning", "Model Kit Building"]
     }
