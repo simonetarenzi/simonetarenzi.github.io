@@ -138,12 +138,14 @@ const data = {
             details: "My own personal website. <br> I wanted to have a very modern looking website where I can put whatever doesn't fit in my curriculum. <br> It follows the so called \"Liquid Glass\" design by Apple, or what I like to call \"Windows Vista 2025\"."
         }
     ],
+
     skills: {
         "Programming": ["Python", "Java", "C++", "SQL", "NoSQL", "HTML", "CSS", "Javascript", "Kotlin", "Matlab", "LaTeX"],
-        "Libraries": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "LangChain", "OpenCV", "ROS"],
+        "Data Science, AI & ML": ["NumPy", "PyTorch", "TensorFlow", "SciPy", "scikit-learn", "Matplotlib", "seaborn", "pandas", "LangChain", "OpenCV"],
         "Databases": ["MySQL", "PostgreSQL", "SQLite", "Firebase", "MongoDB", "Chroma", "FAISS"],
-        "DevOps": ["Git", "Docker", "Kubernetes", "Spring Boot", "Quarkus", "Kafka", "Jira", "Confluence", "JUnit"],
-        "Tools": ["Tableau", "Microsoft 365", "Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
+        "DevOps & Frameworks": ["Git", "Docker", "ROS", "Kubernetes", "Spring Boot", "Quarkus", "Kafka", "JUnit"],
+        "Management & Visualization": ["Jira", "Confluence", "Tableau", "Microsoft 365"],
+        "Professional Software": ["Fusion 360", "PrusaSlicer", "Photoshop", "Illustrator", "Lightroom", "DaVinci Resolve"],
         "Languages": ["Italian (Native)", "English (CAE C1 - 200/210)", "German (Beginner)"],
         "Interests": ["Guitar", "Traveling", "Photography", "Video Editing", "3D Modeling", "3D Scanning", "Model Kit Building"]
     }
