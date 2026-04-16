@@ -179,6 +179,14 @@ document.addEventListener("DOMContentLoaded", () => {
             backToTopBtn.classList.remove('visible');
         }
     });
+
+    // 10. THEME TOGGLE
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('alt-theme');
+        });
+    }
     
     backToTopBtn.addEventListener('click', (e) => {
         e.preventDefault();

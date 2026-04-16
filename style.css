@@ -282,3 +282,182 @@ footer a { color: #fff; margin: 0 10px; text-decoration: none; }
 @keyframes blink {
     50% { border-color: transparent; }
 }
+
+/* =========================================
+   FRUTIGER AERO THEME
+   ========================================= */
+body.alt-theme {
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #1e293b;
+}
+
+body.alt-theme .blob-1 { background: #00f2fe; filter: blur(90px); opacity: 0.7; }
+body.alt-theme .blob-2 { background: #4facfe; filter: blur(100px); opacity: 0.6; }
+body.alt-theme .blob-3 { background: #43e97b; filter: blur(80px); opacity: 0.5; }
+
+body.alt-theme .glass, 
+body.alt-theme .card-face,
+body.alt-theme .tag {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), inset 0 2px 2px rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+body.alt-theme .section-title,
+body.alt-theme .hero-text h1,
+body.alt-theme .logo {
+    background: none;
+    -webkit-text-fill-color: #0f97c9;
+    color: #004494;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+}
+
+body.alt-theme .hero-text h2,
+body.alt-theme .card-date,
+body.alt-theme .skill-category h4,
+body.alt-theme .profile-back h3 {
+    color: #0369a1;
+}
+
+body.alt-theme .hero-text p,
+body.alt-theme .card-face p,
+body.alt-theme .card-face h4,
+body.alt-theme .details-text,
+body.alt-theme .tag {
+    color: #334155;
+}
+
+body.alt-theme .card-face h3 {
+    color: #0f172a;
+}
+
+body.alt-theme nav a,
+body.alt-theme footer,
+body.alt-theme footer a,
+body.alt-theme .card-location,
+body.alt-theme .bottom-right-icon,
+body.alt-theme .bottom-left-icon {
+    color: #475569;
+}
+
+body.alt-theme nav a:hover {
+    color: #0284c7;
+    text-shadow: 0 0 8px rgba(255,255,255,1);
+}
+
+body.alt-theme .btn-outline {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.4));
+    color: #0f172a;
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,1);
+}
+
+body.alt-theme .btn-outline:hover {
+    background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.6));
+    transform: translateY(-2px);
+}
+
+body.alt-theme .btn-primary {
+    background: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    border: 1px solid #00c6ff;
+    box-shadow: 0 4px 10px rgba(0,242,254,0.3), inset 0 2px 2px rgba(255,255,255,0.6);
+}
+
+body.alt-theme .project-link {
+    background: linear-gradient(to bottom, #ffffff, #e0f2fe);
+    color: #0369a1 !important;
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05), inset 0 1px 1px #fff;
+}
+
+body.alt-theme .custom-icon {
+    filter: brightness(0) saturate(100%) invert(31%) sepia(87%) saturate(1512%) hue-rotate(178deg) brightness(94%) contrast(97%) !important;
+}
+
+body.alt-theme .profile-back {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), inset 0 2px 2px rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    color: #334155;
+}
+
+body.alt-theme .profile-back p {
+    color: #334155;
+}
+
+body.alt-theme .profile-back i {
+    color: #0284c7;
+}
+
+body.alt-theme .btn-primary {
+    box-shadow: 0 6px 12px rgba(2, 132, 199, 0.4), inset 0 2px 3px rgba(255, 255, 255, 0.8) !important;
+}
+
+body.alt-theme .btn-primary:hover {
+    box-shadow: 0 10px 20px rgba(2, 132, 199, 0.5), inset 0 2px 3px rgba(255, 255, 255, 0.9) !important;
+    transform: translateY(-2px);
+}
+
+body.alt-theme #theme-toggle i {
+    color: #0369a1; 
+}
+
+body.alt-theme .card-face p,
+body.alt-theme .details-text,
+body.alt-theme .profile-back p,
+body.alt-theme .glass,
+body.alt-theme .tag {
+    color: #475569 !important;
+}
+
+body.alt-theme .card-face h3,
+body.alt-theme .skill-category h4,
+body.alt-theme .profile-back h3 {
+    color: #334155 !important;
+}
+
+body.alt-theme .card-location i {
+    color: #0369a1 !important;
+}
+
+body.alt-theme .card-location {
+    color: #475569 !important;
+}
+
+body.alt-theme .card-location:hover,
+body.alt-theme .card-location:hover i {
+    color: #0284c7 !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+body.alt-theme .btn-outline {
+    color: #475569 !important; 
+}
+
+body.alt-theme .btn-outline i {
+    color: #0369a1 !important;
+}
+
+body.alt-theme footer a {
+    color: #475569 !important;
+}
+
+body.alt-theme footer a i {
+    color: #0369a1 !important;
+}
+
+body.alt-theme .btn-outline:hover,
+body.alt-theme footer a:hover {
+    color: #0284c7 !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+body.alt-theme .btn-outline:hover i {
+    color: #0284c7 !important;
+}
