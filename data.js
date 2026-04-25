@@ -16,8 +16,8 @@ const data = {
             date: "Mar 2026 - Current",
             location: "Milan, IT",
             mapUrl: "https://www.google.com/maps/place/Intesa+Sanpaolo+Vita/@45.4854873,9.1942645,16z/data=!3m1!5s0x4786c6ce0e50fb7f:0x64c17ba744fe5fb1!4m15!1m8!3m7!1s0x4786c6ce0e50fb7f:0xba36fae02fe50c56!2sVia+Melchiorre+Gioia,+22,+20124+Milano+MI!3b1!8m2!3d45.4854873!4d9.1968394!16s%2Fg%2F11cpp1n4_1!3m5!1s0x4786c128426e41f9:0x7c605f2eacedc5c6!8m2!3d45.4854874!4d9.1968394!16s%2Fg%2F1tvw3thk?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D",
-            desc: "Description loading...",
-            details: "Details loading..."
+            desc: "Developing cloud-native microservices using the Quarkus framework for core banking data management. <br> Orchestrating API integration to retrieve and display complex customer anagraphical data and product relationships. <br> Managing data visualization and access for modernized MongoDB database infrastructures.",
+            details: "At Intesa Sanpaolo, I am part of a new team responsible for modernizing how the bank handles and retrieves core customer information. <br> I focus on building high-performance applications with Quarkus to interface with a newly migrated MongoDB environment. <br> My work involves handling large-scale datasets, including customer anagraphics, geographical data (cities/regions/nations), and the intricate relationships between clients and various banking products."
         },
         {
             role: "Data Engineer & 3D Modeler",

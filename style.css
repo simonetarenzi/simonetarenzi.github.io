@@ -34,8 +34,8 @@ nav a:hover { color: #fff; }
 }
 
 .profile-wrapper {
-    width: 280px;
-    height: 280px;
+    width: 320px;
+    height: 320px;
     cursor: pointer;
     position: relative;
     transition: transform 0.1s ease-out;
@@ -166,7 +166,7 @@ nav a:hover { color: #fff; }
 .card-back {
     transform: rotateY(180deg);
     background: rgba(255, 255, 255, 0.08);
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .card-face::before, .glass::before { 
@@ -211,7 +211,7 @@ nav a:hover { color: #fff; }
 /* --- SKILLS & FOOTER --- */
 .skills-container { padding: 30px; margin-bottom: 40px; }
 .skill-category { margin-bottom: 25px; }
-.skill-category h4 { color: #a7f3d0; margin-bottom: 12px; font-size: 1rem; border-left: 3px solid #34d399; padding-left: 10px; font-weight: 700; }
+.skill-category h4 { color: #a7f3d0; margin-bottom: 16px; font-size: 1rem; border-left: 3px solid #34d399; padding-left: 10px; font-weight: 700; }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 10px; }
 .tag { background: rgba(255,255,255,0.08); padding: 6px 14px; border-radius: 8px; font-size: 0.85rem; color: #e0f2fe; border: 1px solid rgba(255,255,255,0.05); transition: background 0.2s; }
 .tag:hover { background: rgba(255,255,255,0.15); }
