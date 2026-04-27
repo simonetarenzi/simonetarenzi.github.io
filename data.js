@@ -134,7 +134,7 @@ const data = {
             desc: "Personal portfolio website to showcase my skills, experience, and projects. <br> Built with HTML, CSS, and JavaScript, featuring a responsive design and interactive elements.",
             tags: ["HTML", "CSS", "JavaScript"],
             linkText: "GitHub",
-            url: "https://bluxen.github.io",
+            url: "https://simonetarenzi.github.io",
             details: "My own personal website. <br> I wanted to have a very modern looking website where I can put whatever doesn't fit in my curriculum. <br> It follows the so called \"Liquid Glass\" design by Apple, or what I like to call \"Windows Vista 2025\"."
         }
     ],
