@@ -6,7 +6,7 @@ const data = {
         bio: "Junior Software Engineer at Intesa Sanpaolo. <br> M.Sc. in Informatics with AI Specialization and Co-Founder of the Google Developer Student Club at USI. <br> Passionate about AI, Robotics, and anything to do with computers.",
         email: "simonetarenzi97@gmail.com",
         linkedin: "https://linkedin.com/in/simone-tarenzi",
-        github: "https://github.com/Bluxen",
+        github: "https://github.com/simonetarenzi",
         photo: "images/profile_picture.png"
     },
     experience: [
