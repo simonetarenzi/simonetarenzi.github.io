@@ -71,7 +71,7 @@ const data = {
             desc: "Automatic depression screening tool using social media comments by employing RAG and LLMs, with an accuracy of more than 87%. <br> Outperformed ML and NLP techniques on the same dataset of CLEF's eRisk competition.",
             tags: ["Python", "Large Language Models", "Retrieval Augmented Generation", "Natural Language Processing", "Machine Learning"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen/Master-Thesis",
+            url: "https://github.com/simonetarenzi/Master-Thesis",
             details: "My Master's thesis and the work I'm probably the most proud of. The idea was to create an automatic depression screening tool using social media comments, specifically from Reddit, by leveraging the power of Large Language Models and Retrieval Augmented Generation techniques. <br> After proving the effectiveness of this methodology, I created a full simulation of two agents, a doctor and a patient, in which they would engage in a conversation to assess the patient's mental state."
         },
         {
@@ -80,7 +80,7 @@ const data = {
             desc: "Robotic system in ROS where a DJI Robomaster EP locates, picks up, and transports ArUco-tagged objects using visual servoing, then autonomously follows a Thymio robot. <br> Integrated OpenCV, CoppeliaSim, and custom control logic for alignment, grasping, and motor coordination.",
             tags: ["Python", "Robot Operating System", "OpenCV", "ArUco", "CoppeliaSim"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen/Robotics-Project",
+            url: "https://github.com/simonetarenzi/Robotics-Project",
             details: "The final project for the Robotics course at USI, where we had to invent and implement any kind of robotic system using ROS and simulated using CoppeliaSim. Our team decided to create a system where a DJI Robomaster EP would have to find, pick up, and transport objects marked with ArUco tags using visual servoing techniques, and then follow another robot (a Thymio) autonomously. <br> I was mainly responsible for the computer vision part using OpenCV and ArUco libraries, as well as the control logic for alignment and grasping."
         },
         {
@@ -98,7 +98,7 @@ const data = {
             desc: "Java application for the creation and automatic representation of three-valued logic formulas through graphs. <br> Implemented both background logic and a user-friendly GUI for formula input and graph visualization.",
             tags: ["Java", "Logic", "Graphs"],
             linkText: "GitHub",
-            url: "https://github.com/Bluxen/Decision_DB",
+            url: "https://github.com/simonetarenzi/Decision_DB",
             details: "My Bachelor's thesis involved creating a Java application that could take three-valued logic formulas as input and represent them as decision diagrams. The most difficult part was to not only create a graph representing the formula itself, but also a way to simplify it so that it was legible. In the end I decided to show the various steps of simplification as well, so it would be easier to understand how the final graph was obtained."
         },
         {
